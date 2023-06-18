@@ -24,7 +24,7 @@ export default class CreateApp {
                     console.error("[DB] - Database connection error:", error);
                 });
         } else {
-            console.error("[DB] - Missing *Database URL*");
+            console.error("[DB] - Missing Database URL");
         }
     }
 
